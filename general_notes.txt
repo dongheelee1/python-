@@ -1,0 +1,32 @@
+OOP (object-oriented programming) – objects are used to model problems
+
+4 pillars of OOP: 
+-	Polymorphism 
+-	Inheritance 
+-	Encapsulation 
+-	Abstraction 
+
+Polymorphism 
+-	Objects behave differently in different contexts 
+Inheritance 
+-	Classes can inherit the methods and data of other classes 
+Abstraction 
+-	The process of modeling real-world problems using objects (think interface --> we don't know the detailed mechanism, just it's general function)
+Encapsulation
+-	Bundling data and methods into an object 
+
+Generator 
+-	A python generator is a function that returns an iterable (i.e. list or tuple) 
+-	To create a python generator, use the ‘yield’ keyword instead of the ‘return’ keyword. 
+-	At each yield, the generator saves the state of the variable 
+
+Difference between a list and generator 
+-	List holds a number of values at once and can be accessed by index 
+-	Generator holds only one value at a time (requires much less space than a list) and return object cannot be accessed by index 
+
+List comprehension (like range) returns a list 
+Generator expression (like xrange) returns an object that can be iterated over
+ 
+Iterator 
+An iterator only needs an iterable to iterate on, and does not make use of local variables 
+Iter() and next() functions 
