@@ -1,0 +1,31 @@
+mutable objects - lists, sets, dictionaries 
+immutable objects - tuples, booleans, strings, integers, floats, and complexes
+
+The Python interpreter compiles python source code into .pyc files (contains the bytecode of the source files). These help speed up processing. 
+
+Ctrl+C escapes an infinite loop.
+
+swapping in one statement: a,b=b,a
+
+PEP8 - guide for writing good, conventional Python code 
+
+list indexing from the right/back starts on index -1 
+list indexing from the left/front starts on index 0 
+
+To convert to uppercase/lowercase: .upper(), .lower()
+To make sure uppercase/lowercase: .isupper(), .islower()
+
+help() function displays the documentation string 
+
+How do you get all values from a Python dictionary? some_dict.values(). For keys? some_dict.keys()
+Check all characters are alphanumeric: isalnum()
+
+How do you take input in Python? a=input('Enter a number')
+python 
+- concise 
+- interpreted (but can be slow)
+- dynamically-typed (type is processed during runtime)
+
+object-oriented programming (python) 
+
+What makes you like Python over other languages? 
