@@ -1,0 +1,17 @@
+Pandas library 
+- handle missing values
+- clean up data 
+- align and index data 
+- read and write data into data structures 
+- merge and join datasets
+- organize data using groupby 
+- do math operations on data 
+- filter what you want from data 
+
+
+Series – 1-D data , homstructureogeneous data, size-immutable, data-mutable 
+Data Frames – 2-D data structure, heterogeneous data, size-mutable, data-mutable 
+Panel – 3-D data structure, heterogeneous data, size-mutable, data-mutable
+
+
+http://www.datasciencemadesimple.com/python-pandas-data-structure/
