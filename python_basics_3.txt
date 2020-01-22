@@ -1,0 +1,47 @@
+A function doesn't necessarily need a return 
+	if return doesn't exist, the function returns a None object 
+
+
+PyPI - Python Package Index: Repo of Python software
+
+Python package is nothing but a bundle of modules and __init__.py module
+
+- named tuple 
+>>> result=namedtuple('result','Physics Chemistry Maths') #format
+>>> A=result(Physics=86,Chemistry=95,Maths=86) #declaring the tuple
+>>> A.Chemistry
+
+- tuple-packing 
+>>> mytuple=3,4,5
+
+- tuple-unpacking 
+>>> x, y, z = tuple
+>>> x + y + z
+
+- How is memory managed in Python 
+Python has a private heap space to hold all objects and data structures 
+Python memory manager controls the allocation 
+In-built garbage collector recycles all unused memory 
+
+- unittest (testing module)
+unit-testing involves testing different sections of the code 
+
+- a set is mutable, a frozenset is immutable 
+
+- set(filter(lambda x:x>4, range(7)))
+- set(map(lambda x:x**3, range(7)))
+- reduce(lambda x,y:y-x, [1,2,3,4,5])
+
+
+API - Application Programming Interface 
+
+What allows one piece of software to talk to another. 
+
+Rest API 
+RE - representational 
+S - state 
+T - transfer 
+
+You make a call from a client to the server and you get data back over the HTTP protocol. 
+
+In Restful API call, you pass on the state of an object to get back some resource. 
