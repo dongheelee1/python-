@@ -1,0 +1,84 @@
+-inheritance
+Single Inheritance- A class inherits from a single base class.
+Multiple Inheritance- A class inherits from multiple base classes.
+Multilevel Inheritance- A class inherits from a base class, which, in turn, inherits from another base class.
+Hierarchical Inheritance- Multiple classes inherit from a single base class.
+
+- What is the difference between generator and iterator 
+
+generator is a function that has the yield statement and returns an iterable.
+	- local variables and their states are saved 
+iterator is a "built-in" function like iter() or next()
+	- no local variables, only an iterable to iterate on 
+
+	odds=iter([1,3,5,7,9])
+	next(odds)
+	next(odds) ...
+
+- A decorator is a function that adds functionallity to some function. 
+
+In the below, the function that @decor is attached is called within the decor function. 
+
+def decor(func): 
+	def wrap(): 
+		print("$$$$$$$")
+		func()
+		print("$$$$$$$")
+
+@decor 
+def sayhi(): 
+	print("hi")
+
+
+sayhi()
+
+- What is the difference between methods and constructors the same thing 
+
+Constructor name must be the same as the class 
+Method name can be anything 
+	A constructor executes once the object is created
+	A method executes any number of times 
+		Constructor is used for initializing non-static variables 
+			Method is used for performing a certain functionality 
+
+- issubclass(B, A)
+
+>>> class A: pass
+>>> class B(A): pass
+>>> issubclass(B,A)
+
+
+- The methods append() and extend() work on lists.
+- append() adds an element to the list
+- extend() adds a list to a list
+
+
+file-processing modes 
+read-only – ‘r’
+write-only – ‘w’
+read-write – ‘rw’
+append – ‘a’
+
+What does the map() function do?
+
+map() executes the function we pass to it as the first argument; it does so on all elements of the iterable in the second argument. 
+
+Python does not have private variables
+
+-get current working directory 
+>>> import os
+>>> os.getcwd()
+
+
+-randomize list in-place 
+>>> from random import shuffle
+>>> shuffle(mylist)
+>>> mylist
+
+-difference between rstrip and lstrip
+
+>>> a = ' A '
+>>> a.lstrip() (leading white space)
+'A '
+>>> a.rstrip()
+' A'
